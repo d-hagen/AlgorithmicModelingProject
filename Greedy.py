@@ -1,4 +1,3 @@
-from typing import Set, List, Tuple
 from LoadData import parse_dat_file
 from helperFuncs import (
     cameraCoverage, #gives squares coverd for each model for each position
@@ -68,12 +67,12 @@ def Greedy(data_set, input_uncoverd =None,
     patterns_per_model = [TimeModel(k, data_set) for k in range(K)]
     # if already given soltion load the solution
     if input_uncoverd is None:
-        Uncovered: Set[Tuple[int, int]] = {(d, j) for d in range(7) for j in range(N)}
+        Uncovered= {(d, j) for d in range(7) for j in range(N)}
     else:
-        Uncovered: Set[Tuple[int, int]] = set(input_uncoverd)
+        Uncovered = set(input_uncoverd)
 
-    installed_positions: Set[int] = set()  
-    solution: List[Tuple[int, int, List[int]]] = []
+    installed_positions= set()  
+    solution  = []
 
     
     if input_solution is not None:
@@ -89,7 +88,7 @@ def Greedy(data_set, input_uncoverd =None,
     while Uncovered:
         best_ratio = None
         best_choice = None      
-        best_newly: Set[Tuple[int, int]] = set()
+        best_newly = set()
 
         # go through all camera models and all squares 
         for k in range(K):
@@ -109,7 +108,7 @@ def Greedy(data_set, input_uncoverd =None,
                     weekly_cost = P[k] + C[k] * days_on 
 
                   
-                    Newly: Set[Tuple[int, int]] = set()
+                    Newly = set()
                     for d in range(7):  # for every day check which new swquares coverd
                         if pattern[d] == 0:
                             continue
