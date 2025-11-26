@@ -1,11 +1,11 @@
 from typing import Set, List, Tuple
 from LoadData import parse_dat_file
 from helperFuncs import (
-    cameraCoverage,
-    TimeModel,
-    coverdBySolution,
-    uncoveredBySolution,
-    cost,
+    cameraCoverage, #gives squares coverd for each model for each position
+    TimeModel,      # for each camera all possible on/off configurations
+    coverdBySolution, ## given a solution outputs all touples (day,square) which are coverd 
+    uncoveredBySolution, ## basically same as above but gives the not coverd touples
+    cost,               ## given a solution outputs total_cost (buy price + operation cost)
 )
 
 File = "Data/project.2.dat"
