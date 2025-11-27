@@ -7,8 +7,9 @@ from helperFuncs import (
     cost,               ## given a solution outputs total_cost (buy price + operation cost)
 )
 
-File = "Data/project.2.dat"
+File = "Data/gen1.dat"
 data = parse_dat_file(File)
+
 
 
 
