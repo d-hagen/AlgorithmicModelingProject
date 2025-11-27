@@ -10,8 +10,8 @@ maxDistance = 51
 
 
 # problem size 
-NumberOfCam     = 2
-NumberOfsquares = 4
+NumberOfCam     = 20
+NumberOfsquares = 400
 
 #output file
 file = "Data/gen1.dat"
