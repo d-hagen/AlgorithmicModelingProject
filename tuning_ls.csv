@@ -1,0 +1,13 @@
+Instance,LS_iters,BestCost,AvgTime
+Data/medium/inst_med_1.dat,5,274,10.535893360773722
+Data/medium/inst_med_1.dat,10,197,15.570859988530477
+Data/medium/inst_med_1.dat,20,167,18.899401664733887
+Data/medium/inst_med_2.dat,5,542,18.313663959503174
+Data/medium/inst_med_2.dat,10,376,23.99274794260661
+Data/medium/inst_med_2.dat,20,402,34.71398099263509
+Data/large/inst_large_1.dat,5,335,72.73906540870667
+Data/large/inst_large_1.dat,10,276,104.38502097129822
+Data/large/inst_large_1.dat,20,252,147.25980377197266
+Data/large/inst_large_2.dat,5,354,161.71211894353232
+Data/large/inst_large_2.dat,10,261,221.79100926717123
+Data/large/inst_large_2.dat,20,302,306.484591404597
