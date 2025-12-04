@@ -1,0 +1,17 @@
+Instance,Alpha,BestCost,AvgTime
+Data/medium/inst_med_1.dat,0.0,171,6.17099944750468
+Data/medium/inst_med_1.dat,0.1,218,14.79995091756185
+Data/medium/inst_med_1.dat,0.2,218,14.332485675811768
+Data/medium/inst_med_1.dat,0.5,207,13.003480672836304
+Data/medium/inst_med_2.dat,0.0,294,10.917275428771973
+Data/medium/inst_med_2.dat,0.1,371,25.658500115076702
+Data/medium/inst_med_2.dat,0.2,445,21.79329792658488
+Data/medium/inst_med_2.dat,0.5,520,21.452571709950764
+Data/large/inst_large_1.dat,0.0,166,35.30186367034912
+Data/large/inst_large_1.dat,0.1,218,98.86639698346455
+Data/large/inst_large_1.dat,0.2,286,110.38143388430278
+Data/large/inst_large_1.dat,0.5,271,95.91817466417949
+Data/large/inst_large_2.dat,0.0,248,83.92191632588704
+Data/large/inst_large_2.dat,0.1,275,208.39792879422507
+Data/large/inst_large_2.dat,0.2,258,1011.0034459431967
+Data/large/inst_large_2.dat,0.5,318,190.25780534744263
